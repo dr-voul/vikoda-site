@@ -33,3 +33,27 @@ body {
     max-width: 1200px;
     margin: auto;
 }
+
+.divider {
+    height: 10px;
+}
+
+.intro-car {
+    padding: 0px 0px 0px 0px;
+    background-image: url(../img/fon.jpg);
+    width: 100%;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.artc {
+    width: 40%;
+    justify-content: start;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
