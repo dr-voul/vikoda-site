@@ -1,31 +1,17 @@
-/* Palette color codes */
-/* Feel free to copy&paste color codes to your application */
-
-/* .primary-1 { background-color: #3314A2 }
-.primary-2 { background-color: #2E1680 }
-.primary-0 { background-color: #241168 }
-.primary-3 { background-color: #170849 }
-.primary-4 { background-color: #0D052B }
-
-.secondary-1-1 { background-color: #31C701 }
-.secondary-1-2 { background-color: #2D9E0A }
-.secondary-1-0 { background-color: #248007 }
-.secondary-1-3 { background-color: #155900 }
-.secondary-1-4 { background-color: #0D3500 }
-
-.secondary-2-1 { background-color: #EB1302 }
-.secondary-2-2 { background-color: #BA180B }
-.secondary-2-0 { background-color: #971208 }
-.secondary-2-3 { background-color: #690800 }
-.secondary-2-4 { background-color: #3E0500 } */
-
-/* end */
+/* 
+    Colors:
+    #000000 - black
+    #F8F4E3 - eggshell
+    #931621 - ruby red
+    #FF8C20 - dark orange
+*/
 
 :root {
     font-family: 'Open Sans', sans-serif;
-    --main-color: #3314A2;
-    --secondary-color-1: #31C701;
-    --secondary-color-2: #EB1302;
+    --main-color: #000000;
+    --secondary-color-1: #F8F4E3;
+    --secondary-color-2: #931621;
+    --secondary-color-2: #FF8C20;
     scroll-behavior: smooth;
 }
 
