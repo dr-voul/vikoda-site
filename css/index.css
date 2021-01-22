@@ -3,7 +3,7 @@
     #000000 - black
     #F8F4E3 - eggshell
     #931621 - ruby red
-    #FF8C20 - dark orange
+    #3409CF - medium blue
 */
 
 :root {
@@ -11,8 +11,11 @@
     --main-color: #000000;
     --secondary-color-1: #F8F4E3;
     --secondary-color-2: #931621;
-    --secondary-color-2: #FF8C20;
+    --secondary-color-3: #3409CF;
     scroll-behavior: smooth;
+    background-image: url(../img/fon.png);
+    background-size: cover;
+    background-position: center;
 }
 
 body {
@@ -20,26 +23,61 @@ body {
     margin: auto;
 }
 
-.divider {
-    height: 10px;
+a:hover {
+    color: #931621;
 }
 
-.intro-car {
-    padding: 0px 0px 0px 0px;
-    background-image: url(../img/fon.jpg);
+.navigation-text {
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.intro-box {
+    position: relative;
+    text-align: left;
+}
+
+.intro {
     width: 100%;
-    min-height: 600px;
+    max-height: 600px;
+}
+
+.intro-text {
+    width: 45%;
+    position: absolute;
+    top: 40%;
+    left: 25px;
+    font-size: 50px;
+    font-family: Roboto;
+    color: var(--secondary-color-1);
+    text-shadow: black 0 0 10px;
+}
+
+.intro-logo {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.divider {
+    height: 5px;
+    background-image: url(../img/fon.png);
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
 }
 
-.artc {
-    width: 40%;
-    justify-content: start;
+#carousel-about-us {
+    width: 55%;
+    max-height: 400px;
+}
+
+.article {
+    width: 45%;
+    font-size: 24px;
+    font-family: Source Sans Pro;
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    color: var(--main-color);
+    background-color: var(--secondary-color-1);
 }
