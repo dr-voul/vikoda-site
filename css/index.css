@@ -21,6 +21,8 @@
 body {
     max-width: 1200px;
     margin: auto;
+    line-height: normal;
+    font-size: 1rem;
 }
 
 a:hover {
@@ -28,7 +30,12 @@ a:hover {
 }
 
 .navigation-text {
-    font-size: 25px;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.e-mail {
+    font-size: 15px;
     font-family: Montserrat;
 }
 
@@ -46,16 +53,15 @@ a:hover {
     width: 45%;
     position: absolute;
     top: 40%;
-    left: 25px;
-    font-size: 50px;
+    left: 2.5%;
+    font-size: 300%;
     font-family: Roboto;
     color: var(--secondary-color-1);
     text-shadow: black 0 0 10px;
 }
 
 .intro-logo {
-    width: 180px;
-    height: 180px;
+    width: 10%;
     position: absolute;
     top: 8px;
     right: 16px;
@@ -70,7 +76,20 @@ a:hover {
 
 #carousel-about-us {
     width: 55%;
-    max-height: 400px;
+    max-height: 500px;
+}
+
+#carousel-our-product {
+    width: 55%;
+    max-height: 500px;
+}
+
+.info-block {
+    width: 100%;
+    background-color: rgba(248, 244, 227, 0);
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .article {
@@ -79,5 +98,9 @@ a:hover {
     font-family: Source Sans Pro;
     text-align: center;
     color: var(--main-color);
-    background-color: var(--secondary-color-1);
+    background-color: rgba(248, 244, 227, 0.3);
+}
+
+.carousel-img {
+    max-height: 400px;
 }
