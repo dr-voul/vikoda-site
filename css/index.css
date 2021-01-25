@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 /* 
     Colors:
     #000000 - black
@@ -23,10 +24,6 @@ body {
     margin: auto;
     line-height: normal;
     font-size: 1rem;
-}
-
-a:hover {
-    color: #931621;
 }
 
 .navigation-text {
@@ -63,23 +60,37 @@ a:hover {
 .intro-logo {
     width: 10%;
     position: absolute;
-    top: 8px;
+    top: 70px;
     right: 16px;
 }
 
 .divider {
-    height: 5px;
+    height: 10px;
     background-image: url(../img/fon.png);
     background-size: cover;
     background-position: center;
 }
 
-#carousel-about-us {
-    width: 55%;
-    max-height: 500px;
+h2 {
+    font-weight: bold;
+    font-family: Noto Sans JP;
 }
 
-#carousel-our-product {
+.our-photos {
+    width: 33%;
+    border-radius: 50px;
+}
+
+.our-bio {
+    width: 34%;
+    font-size: 24px;
+    font-family: Source Sans Pro;
+    text-align: center;
+    color: var(--main-color);
+    background-color: rgba(248, 244, 227, 0.3);
+}
+
+#carousel-windows, #carousel-doors, #carousel-gates, #carousel-rolletes {
     width: 55%;
     max-height: 500px;
 }
@@ -99,8 +110,58 @@ a:hover {
     text-align: center;
     color: var(--main-color);
     background-color: rgba(248, 244, 227, 0.3);
+    margin: auto;
 }
 
 .carousel-img {
     max-height: 400px;
+}
+
+.product-beginning {
+    background-color: var(--secondary-color-3);
+    width: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Source Sans Pro;
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 0px;
+}
+
+.cert-left {
+    width: 30%;
+    margin-left: 0%;
+    margin-right: 3%;
+}
+
+.cert-mid {
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.cert-right {
+    width: 30%;
+    margin-right: 0%;
+    margin-left: 3%;
+}
+
+.pre-last {
+    width: 100%;
+    display: flex;
+    background-image: url(../img/fon.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.numbers {
+    width: 50%;
+    
+    text-align: center;
+}
+
+.phones {
+    line-height: 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
