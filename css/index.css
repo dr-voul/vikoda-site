@@ -86,8 +86,7 @@ h2 {
     font-size: 24px;
     font-family: Source Sans Pro;
     text-align: center;
-    color: var(--main-color);
-    background-color: rgba(248, 244, 227, 0.3);
+    color: var(--secondary-color-1);
 }
 
 #carousel-windows, #carousel-doors, #carousel-gates, #carousel-rolletes {
@@ -97,7 +96,7 @@ h2 {
 
 .info-block {
     width: 100%;
-    background-color: rgba(248, 244, 227, 0);
+    background-color: black;
     display: flex;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
@@ -108,8 +107,7 @@ h2 {
     font-size: 24px;
     font-family: Source Sans Pro;
     text-align: center;
-    color: var(--main-color);
-    background-color: rgba(248, 244, 227, 0.3);
+    color: var(--secondary-color-1);
     margin: auto;
 }
 
@@ -118,7 +116,7 @@ h2 {
 }
 
 .product-beginning {
-    background-color: var(--secondary-color-3);
+    background-color: rgba(147, 22, 33, 0.73);
     width: 100%;
     font-size: 45px;
     font-weight: bold;
@@ -131,25 +129,25 @@ h2 {
 .cert-left {
     width: 30%;
     margin-left: 0%;
-    margin-right: 3%;
+    margin-right: 2.5%;
 }
 
 .cert-mid {
     width: 30%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .cert-right {
     width: 30%;
     margin-right: 0%;
-    margin-left: 3%;
+    margin-left: 2.5%;
 }
 
 .pre-last {
     width: 100%;
     display: flex;
-    background-image: url(../img/fon.png);
+    background-color: black;
     background-size: cover;
     background-position: center;
 }
