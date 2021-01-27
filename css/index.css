@@ -1,18 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-/* 
-    Colors:
-    #000000 - black
-    #F8F4E3 - eggshell
-    #931621 - ruby red
-    #3409CF - medium blue
-*/
 
 :root {
     font-family: 'Open Sans', sans-serif;
-    --main-color: #000000;
-    --secondary-color-1: #F8F4E3;
-    --secondary-color-2: #931621;
-    --secondary-color-3: #3409CF;
+    --main-color: #000000;  /* Black */
+    --secondary-color-1: #F8F4E3;   /* Eggshell */
+    --secondary-color-2: #931621;   /* Ruby Red */
+    --secondary-color-3: #3409CF;   /* Medium Blue */
     scroll-behavior: smooth;
     background-image: url(../img/fon.jpg);
     background-size: cover;
@@ -125,30 +118,16 @@ h2 {
     margin-bottom: 0px;
 }
 
-.cert-left {
+.certificate {
+    margin: auto;
     width: 30%;
-    margin-left: 0%;
-    margin-right: 2.5%;
-}
-
-.cert-mid {
-    width: 30%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
-
-.cert-right {
-    width: 30%;
-    margin-right: 0%;
-    margin-left: 2.5%;
 }
 
 .pre-last {
     width: 100%;
     display: flex;
+    justify-content: center;
     background-color: black;
-    background-size: cover;
-    background-position: center;
 }
 
 .foot-con {
@@ -225,6 +204,16 @@ h2 {
         max-height: 500px;
     }
 
+    .pre-last {
+        display: grid;
+        justify-content: center;
+    }
+
+    .certificate {
+        width: 85%;
+        margin-bottom: 5px;
+    }
+
     .foot-con {
         display: block;
         background-image: url(../img/fon.png);
@@ -293,6 +282,18 @@ h2 {
     #carousel-windows, #carousel-doors, #carousel-gates, #carousel-rolletes {
         width: 55%;
         max-height: 500px;
+    }
+
+    .certificate {
+        margin: auto;
+        width: 30%;
+    }
+
+    .pre-last {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: black;
     }
 
     .foot-con {
